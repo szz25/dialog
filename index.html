@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="btn">点击</button>
+</body>
+<script src="./dialog.js"></script>
+<script>
+    const obj = {
+        width: 300,
+        height: 150,
+        background: '#fff',
+        btn: ['确定', '取消'],
+        con: '弹窗',
+        color: '#555'
+    }
+    btn.onclick = function() {
+        new show(obj);
+    }
+</script>
+
+</html>
